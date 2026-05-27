@@ -21,7 +21,7 @@
     "image": "https://i.ibb.co.com/n1Yd2Lh/course2.jpg",
     "category": "Design"
   },
-  {,
+  {
     "id": 3,
     "title": "Digital Marketing Basics",
     "instructor": "Alex Johnson",
@@ -65,4 +65,4 @@
     "image": "https://i.ibb.co.com/Wp8W0Z9/course6.jpg",
     "category": "AI"
   }
-  ]
+]

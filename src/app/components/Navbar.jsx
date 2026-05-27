@@ -1,25 +1,40 @@
-'use client'
+"use client";
 
-import Link from 'next/link'
+import Link from "next/link";
+import { useAuth } from "@/providers/AuthProvider";
 
-const Navbar = () => {
+export default function Navbar() {
+  const { user, logout } = useAuth();
+
   return (
     <div className="navbar bg-slate-900 px-8">
-      <div className="flex-1">
-        <Link href="/" className="text-2xl font-bold text-indigo-400">
-          SkillSphere
-        </Link>
-      </div>
-       <div className="flex gap-4">
+      <Link href="/" className="text-xl text-indigo-400">
+        SkillSphere
+      </Link>
+
+      <div className="flex gap-4 items-center">
         <Link href="/">Home</Link>
         <Link href="/courses">Courses</Link>
-        <Link href="/profile">My Profile</Link>
-        <Link className="btn btn-primary" href="/login">
-          Login
-        </Link>
+        <Link href="/profile">Profile</Link>
+
+        {user ? (
+          <>
+            <img
+              src={user.photo || "https://i.ibb.co/placeholder.png"}
+              className="w-8 h-8 rounded-full"
+              alt="user"
+            />
+            <button onClick={logout} className="btn btn-sm">
+              Logout
+            </button>
+          </>
+        ) : (
+          <>
+            <Link href="/login">Login</Link>
+            <Link href="/register">Register</Link>
+          </>
+        )}
       </div>
     </div>
-  )
+  );
 }
-
-export default Navbar

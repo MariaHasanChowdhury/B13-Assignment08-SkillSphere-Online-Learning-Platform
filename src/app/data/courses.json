@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Complete Web Development Bootcamp",
+    "instructor": "John Doe",
+    "duration": "20 hours",
+    "rating": 4.8,
+    "level": "Beginner",
+    "description": "Learn full-stack web development from scratch.",
+    "image": "https://i.ibb.co.com/0jQ6j0T/course1.jpg",
+    "category": "Development"
+  },
+  {
+    "id": 2
+    "title": "UI UX Design Masterclass",
+    "instructor": "Sarah Smith",
+    "duration": "15 hours",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "description": "Learn professional UI UX Design.",
+    "image": "https://i.ibb.co.com/n1Yd2Lh/course2.jpg",
+    "category": "Design"
+  },
+  {,
+    "id": 3,
+    "title": "Digital Marketing Basics",
+    "instructor": "Alex Johnson",
+    "duration": "12 hours",
+    "rating": 4.7,
+    "level": "Beginner",
+    "description": "Learn SEO and online marketing.",
+    "image": "https://i.ibb.co.com/rfP4Y9S/course3.jpg",
+    "category": "Marketing"
+  },
+  {
+    "id": 4,
+    "title": "React Native Mobile App",
+    "instructor": "David Miller",
+    "duration": "18 hours",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "description": "Build mobile apps using React Native.",
+    "image": "https://i.ibb.co.com/3mGm4n8/course4.jpg",
+    "category": "Mobile"
+  },
+  {
+    "id": 5,
+    "title": "Freelancing Career Guide",
+    "instructor": "Emma Watson",
+    "duration": "10 hours",
+    "rating": 4.6,
+    "level": "Beginner",
+    "description": "Start your freelancing career.",
+    "image": "https://i.ibb.co.com/J5P6YxK/course5.jpg",
+    "category": "Business"
+  },
+  {
+    "id": 6,
+    "title": "Artificial Intelligence Basics",
+    "instructor": "Michael Brown",
+    "duration": "22 hours",
+    "rating": 4.9,
+    "level": "Advanced",
+    "description": "Introduction to Artificial Intelligence.",
+    "image": "https://i.ibb.co.com/Wp8W0Z9/course6.jpg",
+    "category": "AI"
+  }
+  ]

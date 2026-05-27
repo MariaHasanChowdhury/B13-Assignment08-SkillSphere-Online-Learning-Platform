@@ -7,3 +7,17 @@ import { Toaster } from 'react-hot-toast'
 export const metadata = {
   title: 'SkillSphere'
 }
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>
+        <Navbar />
+        <main className="min-h-screen">
+          {children}
+        </main>
+        <Footer />
+        <Toaster position="top-right" />
+      </body>
+    </html>
+  )
+}

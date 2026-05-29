@@ -1,5 +1,5 @@
-import courses from "@/data/courses.json";
-import ProtectedRoute from "@/lib/ProtectedRoute";
+import courses from "src/data/courses.json";
+import ProtectedRoute from "src/lib/ProtectedRoute";
 
 export default function CourseDetails({ params }) {
   const course = courses.find((c) => c.id == params.id);

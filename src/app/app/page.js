@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import courses from "@/data/courses.json";
 import CourseCard from "@/components/CourseCard";
-
+import InstructorCard from "@/components/InstructorCard";
 export default function Home() {
   const topCourses = [...courses]
     .sort((a, b) => b.rating - a.rating)
@@ -38,6 +38,48 @@ export default function Home() {
           ))}
         </div>
       </section>
+      {/* Top Instructors */}
+<section className="bg-slate-800 py-20 px-4">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-3xl font-bold mb-10">
+      🏆 Top Instructors
+    </h2>
+
+    <div className="grid md:grid-cols-4 gap-6">
+      <InstructorCard
+        instructor={{
+          name: "John Doe",
+          skill: "Web Development",
+          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+        }}
+      />
+
+      <InstructorCard
+        instructor={{
+          name: "Sarah Smith",
+          skill: "UI/UX Design",
+          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+        }}
+      />
+
+      <InstructorCard
+        instructor={{
+          name: "Alex Johnson",
+          skill: "Marketing",
+          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+        }}
+      />
+
+      <InstructorCard
+        instructor={{
+          name: "Michael Brown",
+          skill: "Artificial Intelligence",
+          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+        }}
+      />
+    </div>
+  </div>
+</section>
     </div>
   );
 }

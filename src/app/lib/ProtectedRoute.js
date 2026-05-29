@@ -15,16 +15,18 @@ export default function ProtectedRoute({ children }) {
   useEffect(() => {
     if (!user) {
       router.push("/login");
+    } else {
+      setLoading(false);
     }
-
-    setLoading(false);
   }, [user, router]);
 
-  // Loader show
   if (loading) {
     return <Loader />;
   }
 
-  // if there is user the page will show
-  return user ? children : null;
+  if (!user) {
+    return null;
+  }
+
+  return children;
 }

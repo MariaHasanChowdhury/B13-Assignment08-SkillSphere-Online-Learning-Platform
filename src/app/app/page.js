@@ -2,6 +2,8 @@ import Hero from "@/components/Hero";
 import courses from "@/data/courses.json";
 import CourseCard from "@/components/CourseCard";
 import InstructorCard from "@/components/InstructorCard";
+import LearningTips from "@/components/LearningTips";
+
 export default function Home() {
   const topCourses = [...courses]
     .sort((a, b) => b.rating - a.rating)
@@ -23,10 +25,16 @@ export default function Home() {
       </section>
 
       {/* Learning Tips */}
-      <section className="bg-slate-800 py-20 px-4 text-center">
-        <h2 className="text-3xl font-bold mb-4">📌 Learning Tips</h2>
-        <p>Study daily, build projects, practice consistently 🚀</p>
+      <section className="bg-slate-800 py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+           <h2 className="text-3xl font-bold mb-10 text-center">
+             📌 Learning Tips
+          </h2>
+
+          <LearningTips />
+        </div>
       </section>
+      
 
       {/* Trending */}
       <section className="max-w-7xl mx-auto py-20 px-4">

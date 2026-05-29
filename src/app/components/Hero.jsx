@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from 'swiper/react'
 import 'swiper/css'
 
 const Hero = () => {
-     return (
+  return (
     <Swiper>
       <SwiperSlide>
         <div className="h-[500px] flex items-center justify-center bg-gradient-to-r from-indigo-500 to-purple-500">
@@ -15,7 +15,8 @@ const Hero = () => {
           </div>
         </div>
       </SwiperSlide>
-       <SwiperSlide>
+
+      <SwiperSlide>
         <div className="h-[500px] flex items-center justify-center bg-gradient-to-r from-pink-500 to-orange-500">
           <div className="text-center">
             <h1 className="text-5xl font-bold">
@@ -27,4 +28,5 @@ const Hero = () => {
     </Swiper>
   )
 }
+
 export default Hero

@@ -63,6 +63,9 @@ export default function LoginPage() {
 
         <button
           type="button"
+          onClick={() =>
+             toast("Google Login Coming Soon 🚀")
+          }
           className="btn btn-outline w-full mt-4"
         >
           Continue with Google

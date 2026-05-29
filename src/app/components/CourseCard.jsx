@@ -1,16 +1,27 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const CourseCard = ({ course }) => {
   return (
     <div className="card bg-slate-800 shadow-xl">
       <figure>
-        <img src={course.image} alt={course.title} />
+        <img
+          src={course.image}
+          alt={course.title}
+        />
       </figure>
 
       <div className="card-body">
-        <h2 className="card-title">{course.title}</h2>
-         <p>Instructor: {course.instructor}</p>
-        <p>Rating: {course.rating}</p>
+        <h2 className="card-title">
+          {course.title}
+        </h2>
+
+        <p>
+          Instructor: {course.instructor}
+        </p>
+
+        <p>
+          Rating: {course.rating}
+        </p>
 
         <div className="card-actions justify-end">
           <Link
@@ -21,8 +32,8 @@ const CourseCard = ({ course }) => {
           </Link>
         </div>
       </div>
-        </div>
-  )
-}
+    </div>
+  );
+};
 
-export default CourseCard
+export default CourseCard;

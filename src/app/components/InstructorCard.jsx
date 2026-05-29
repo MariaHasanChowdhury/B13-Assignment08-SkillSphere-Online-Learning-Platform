@@ -4,7 +4,7 @@ const InstructorCard = ({ instructor }) => {
       <img
         src={instructor.image}
         alt={instructor.name}
-        className="w-24 h-24 rounded-full mx-auto mb-4"
+        className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
       />
 
       <h2 className="text-xl font-bold">

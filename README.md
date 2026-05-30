@@ -3,7 +3,10 @@
 SkillSphere is a modern online learning platform where users can explore courses, view detailed course information, manage their profiles, and enhance their skills through a clean and responsive learning experience.
 -------------------
 ### 🌐 Live Site:
-
+https://b13-assignment08-skill-sphere-onlin.vercel.app/
+------------------------
+### 🌐 GitHub Repository:
+https://github.com/MariaHasanChowdhury/B13-Assignment08-SkillSphere-Online-Learning-Platform
 --------------------------
 ### 🚀 Features
 - 🔐 User Authentication System

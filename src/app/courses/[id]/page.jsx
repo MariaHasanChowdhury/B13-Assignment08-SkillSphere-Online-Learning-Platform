@@ -1,3 +1,4 @@
+import { notFound } from "next/navigation";
 import courses from "@/data/courses.json";
 import ProtectedRoute from "@/lib/ProtectedRoute";
 
@@ -9,12 +10,9 @@ export default async function CourseDetails({ params }) {
   );
 
   if (!course) {
-    return (
-      <h1 className="text-center text-3xl py-20">
-        Course Not Found
-      </h1>
-    );
+    notFound();
   }
+    
 
   return (
     <ProtectedRoute>

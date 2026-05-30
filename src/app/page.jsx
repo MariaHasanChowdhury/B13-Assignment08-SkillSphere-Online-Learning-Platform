@@ -47,26 +47,28 @@ export default function Home() {
         </div>
       </section>
       {/* Top Instructors */}
-<section className="bg-slate-800 py-20 px-4">
-  <div className="max-w-7xl mx-auto">
-    <h2 className="text-3xl font-bold mb-10">
-      🏆 Top Instructors
-    </h2>
+      <section className="bg-slate-800 py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-3xl font-bold mb-10">
+           🏆 Top Instructors
+        </h2>
 
-    <div className="grid md:grid-cols-4 gap-6">
+        <div className="grid md:grid-cols-4 gap-6">
       <InstructorCard
         instructor={{
           name: "John Doe",
           skill: "Web Development",
-          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+          image: "https://randomuser.me/api/portraits/men/32.jpg",
         }}
       />
+
+     
 
       <InstructorCard
         instructor={{
           name: "Sarah Smith",
           skill: "UI/UX Design",
-          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+          image: "https://randomuser.me/api/portraits/women/44.jpg",
         }}
       />
 
@@ -74,7 +76,7 @@ export default function Home() {
         instructor={{
           name: "Alex Johnson",
           skill: "Marketing",
-          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+          image: "https://randomuser.me/api/portraits/men/75.jpg",
         }}
       />
 
@@ -82,7 +84,7 @@ export default function Home() {
         instructor={{
           name: "Michael Brown",
           skill: "Artificial Intelligence",
-          image: "https://i.ibb.co/4pDNDk1/avatar.png",
+          image: "https://randomuser.me/api/portraits/men/68.jpg",
         }}
       />
     </div>

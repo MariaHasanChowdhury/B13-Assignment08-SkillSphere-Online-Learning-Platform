@@ -1,8 +1,8 @@
 import './globals.css'
-import Navbar from '@/components/Navbar'
-import Footer from '@/components/Footer'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 import { Toaster } from 'react-hot-toast'
-import { AuthProvider } from '@/providers/AuthProvider'
+import { AuthProvider } from '../providers/AuthProvider'
 
 export const metadata = {
   title: 'SkillSphere'

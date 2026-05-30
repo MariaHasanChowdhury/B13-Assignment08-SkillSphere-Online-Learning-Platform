@@ -29,7 +29,6 @@ export default function LoginPage() {
     login(user);
 
     toast.success("Login Successful");
-
     router.push("/");
   };
 
@@ -37,25 +36,37 @@ export default function LoginPage() {
     <div className="flex justify-center items-center min-h-screen px-4">
       <form
         onSubmit={handleLogin}
-        className="bg-slate-800 p-10 rounded-2xl w-full max-w-md"
+        className="bg-slate-800 p-10 rounded-2xl w-full max-w-md shadow-xl"
       >
-        <h1 className="text-4xl font-bold mb-6 text-center">
+        <h1 className="text-4xl font-bold mb-8 text-center">
           Login
         </h1>
 
-        <input
-          name="email"
-          type="email"
-          placeholder="Email"
-          className="input input-bordered w-full mb-4"
-        />
+        <div className="mb-4">
+          <label className="block mb-2 font-medium">
+            Email Address
+          </label>
 
-        <input
-          name="password"
-          type="password"
-          placeholder="Password"
-          className="input input-bordered w-full mb-4"
-        />
+          <input
+            name="email"
+            type="email"
+            placeholder="example@gmail.com"
+            className="input input-bordered w-full text-black"
+          />
+        </div>
+
+        <div className="mb-6">
+          <label className="block mb-2 font-medium">
+            Password
+          </label>
+
+          <input
+            name="password"
+            type="password"
+            placeholder="Enter your password"
+            className="input input-bordered w-full text-black"
+          />
+        </div>
 
         <button className="btn btn-primary w-full">
           Login
@@ -64,14 +75,14 @@ export default function LoginPage() {
         <button
           type="button"
           onClick={() =>
-             toast("Google Login Coming Soon 🚀")
+            toast("Google Login Coming Soon 🚀")
           }
           className="btn btn-outline w-full mt-4"
         >
           Continue with Google
         </button>
 
-        <p className="mt-4 text-center">
+        <p className="mt-6 text-center">
           New here?
           <Link
             href="/register"

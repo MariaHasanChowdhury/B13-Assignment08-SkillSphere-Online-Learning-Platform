@@ -7,7 +7,7 @@
     "rating": 4.8,
     "level": "Beginner",
     "description": "Learn full-stack web development from scratch.",
-    "image": "https://i.ibb.co.com/0jQ6j0T/course1.jpg",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=800",
     "category": "Development"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.9,
     "level": "Intermediate",
     "description": "Learn professional UI UX Design.",
-    "image": "https://i.ibb.co.com/n1Yd2Lh/course2.jpg",
+    "image": "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800",
     "category": "Design"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.7,
     "level": "Beginner",
     "description": "Learn SEO and online marketing.",
-    "image": "https://i.ibb.co.com/rfP4Y9S/course3.jpg",
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800",
     "category": "Marketing"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.8,
     "level": "Intermediate",
     "description": "Build mobile apps using React Native.",
-    "image": "https://i.ibb.co.com/3mGm4n8/course4.jpg",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
     "category": "Mobile"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.6,
     "level": "Beginner",
     "description": "Start your freelancing career.",
-    "image": "https://i.ibb.co.com/J5P6YxK/course5.jpg",
+    "image": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800",
     "category": "Business"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.9,
     "level": "Advanced",
     "description": "Introduction to Artificial Intelligence.",
-    "image": "https://i.ibb.co.com/Wp8W0Z9/course6.jpg",
+    "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800",
     "category": "AI"
   }
 ]

@@ -5,8 +5,9 @@ const CourseCard = ({ course }) => {
     <div className="card bg-slate-800 shadow-xl">
       <figure>
         <img
-          src={course.image}
-          alt={course.title}
+           src={course.image}
+           alt={course.title}
+           className="h-56 w-full object-cover"
         />
       </figure>
 
